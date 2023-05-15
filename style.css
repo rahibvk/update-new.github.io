@@ -1,0 +1,235 @@
+/* .main-head{
+    font-size: 60px !important;
+    
+} */
+
+#id {
+    width: 100px;
+}
+
+/* navbar css */
+.navbar-brand img {
+    height: 40px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+.navbar-nav{
+    align-items: center;
+}
+.navbar-brand{
+    margin-right: 100px;
+    padding: 1em;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffff;
+    font-size: 1.1em;
+    padding: .5em 1em;
+}
+
+
+
+/* crousel css */
+.c-item{
+    height: 480px;
+
+}
+
+.c-img{
+    height: 100%;
+
+
+}
+
+
+/* card image service section */
+  
+.card-img:hover {
+    transform: scale(1.1);
+
+}
+.card-img{
+    transition: all 0.3s;
+}
+
+
+body{
+
+    background-color: #F9A826;
+}
+
+.rows{
+
+    height: 100vh;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .575rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 52px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card{
+
+    padding: 20px;
+    background-color: #eee;
+        padding-bottom: 50px;
+    padding-top: 50px;
+ 
+}
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f9a826;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.border-rad{
+
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+
+    color: #fff;
+    background-color: #f9a826;
+    border-color: #f9a826;
+}
+
+
+
+
+.border-rad:hover{
+   
+     background-color: #f9a826;
+    border-color: #f9a826;
+
+}
+
+
+/* slidder cssaa */
+
+.button-q {
+    margin-top: 0.1px;
+    position: relative;
+    background-color: transparent;
+    color: #e8e8e8 ;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100% !important;
+    height: 460px !important;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+            box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button-q::before {
+    content: "Our SocialPro service offers Instagram and Facebook management, ad campaigns, and digital products to enhance your social media presence.";
+   
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(135deg,#7b4397,#dc2430 );
+    -webkit-transform: translate(0%,90%);
+        -ms-transform: translate(0%,90%);
+            transform: translate(0%,90%);
+    z-index: 99;
+    position: relative;
+    -webkit-transform-origin: bottom;
+        -ms-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button-q::after {
+    content: "Streamline your social media with roojmedia";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    -webkit-transform-origin: top;
+        -ms-transform-origin: top;
+            transform-origin: top;
+    -webkit-transform: translate(0%,-100%);
+        -ms-transform: translate(0%,-100%);
+            transform: translate(0%,-100%);
+    -webkit-transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button-q:hover::before {
+    -webkit-transform: translate(0%,0%);
+        -ms-transform: translate(0%,0%);
+            transform: translate(0%,0%);
+  }
+  
+  .button-q:hover::after {
+    -webkit-transform: translate(0%,-200%);
+        -ms-transform: translate(0%,-200%);
+            transform: translate(0%,-200%);
+  }
+  
+  .button-q:focus {
+    outline: none;
+  }
+  
+  .button-q:active {
+    scale: 0.95;
+  }
+
+/* service sec */
+
+/* #serv{
+    background-color: #ced4da !important;
+}
+  
+/* testimonial sec */
+
+/* #tst{
+    background-color: #c7d2dc;
+} */
+
+ */
